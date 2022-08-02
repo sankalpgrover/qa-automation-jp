@@ -25,3 +25,8 @@ src/main/java/utils contains custom implementations
 ##Execution
 mvn clean test  -Dcucumber.filter.tags="@Smoke"   // run Smoke Tests
 mvn clean test  -Dcucumber.filter.tags="@All"     // Run all test scripts
+
+##reports
+cucumber masterthot reports for GUI representation of test status
+Reprots can be viewed by navigating to path:
+/Users/XXXXX/Projects/restassured-apiautomation/target/advanced-reports/cucumber-html-reports/overview-features.html
